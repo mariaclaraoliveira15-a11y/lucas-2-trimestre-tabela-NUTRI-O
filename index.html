@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Nutrição</title>
-    <link rel="style.css" href="index.html">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1 class="titulo"> Nutrição Moraes</h1>
+            <h1 class="titulo">Moraes Nutrição</h1>
         </div>
     </header>
     <main>
@@ -18,16 +18,53 @@
             <table>
                 <thead>
                     <tr>
-                        <th>
-                            <th>Nome</th>
-                            <th>Peso</th>
-                            <th>Altura</th>
-                            <th>gordura corporal</th>
-                        </th>
+                        <th>Nome</th>
+                        <th>Peso (kg)</th>
+                        <th>Altura (m)</th>
+                        <th>Gordura Corporal (%)</th>
+                        <th>IMC</th>
                     </tr>
                 </thead>
+                <tbody id="tabela-pacientes">
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">calleb</td>
+                        <td class="info-peso">200</td>
+                        <td class="info-altura">1.50</td>
+                        <td class="info-gordura">50</td>
+                        <td class="info-imc">06</td>
+                    </tr>
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">isabelly</td>
+                        <td class="info-peso">67</td>
+                        <td class="info-altura">1.30</td>
+                        <td class="info-gordura">20</td>
+                        <td class="info-imc">0</td>
+                    </tr>
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">eduarda</td>
+                        <td class="info-peso">58</td>
+                        <td class="info-altura">1.55</td>
+                        <td class="info-gordura">14</td>
+                        <td class="info-imc">0</td>
+                    </tr>
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">maria</td>
+                        <td class="info-peso">80</td>
+                        <td class="info-altura">1.69</td>
+                        <td class="info-gordura">23</td>
+                        <td class="info-imc">0</td>
+                    </tr>
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Tatiana</td>
+                        <td class="info-peso">46</td>
+                        <td class="info-altura">1.55</td>
+                        <td class="info-gordura">19</td>
+                        <td class="info-imc">0</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
     </main>
+    <script scr="script.js"></script>
 </body>
 </html>
